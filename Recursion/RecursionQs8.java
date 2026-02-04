@@ -1,7 +1,7 @@
 public class RecursionQs8 {
     public static int tilingProblem(int n){
         if(n == 1 || n==2){
-            return n;
+            return 1;
         }
 
         int fnm1 = tilingProblem(n-1);
